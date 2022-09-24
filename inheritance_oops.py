@@ -23,6 +23,10 @@ class Car(Automobiles):
         self.price = int(self.price * 2)
         print("Inside Car Class inherited from Automobiles")
 
+    def get_price(self):
+        print("Price of {model} is {price}".format(model=self.model, price=self.price))
+        print("Inside the Car Class inherited from Automobile Class (Parent)")
+
 
 class Bike(Automobiles):
     def __init__(self, model, price, yearm, stand_type, spoke_present):
