@@ -74,3 +74,6 @@ print(
     + "*" * 10
 )
 super(type(ferrari), ferrari).get_price()
+
+print("*" * 10 + "Get help on any class" + "*" * 10)
+print(help(SuperCar))
